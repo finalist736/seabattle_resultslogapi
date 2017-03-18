@@ -1,0 +1,11 @@
+{
+	"Profiling": false,
+	"Port": ":8082",
+	"Mongo": {
+		"Host": "localhost",
+		"User": "user",
+		"Pass": "",
+		"Name": "dbname",
+		"Port": 27017
+	}
+}
