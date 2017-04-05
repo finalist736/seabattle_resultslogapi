@@ -1,6 +1,8 @@
 {
-	"Profiling": false,
+	"ProfilingCPU": false,
 	"Port": ":8082",
+	"Logpath": "/path/to/file/of/empty/for/stdout/stderr",
+	"Loglevel": "warn",
 	"Mongo": {
 		"Host": "localhost",
 		"User": "user",

@@ -15,9 +15,12 @@ type DBConfig struct {
 }
 
 type Configuration struct {
-	Mongo     *DBConfig
-	Port      string
-	Profiling bool
+	Mongo          DBConfig
+	Port           string
+	ProfilingCPU   bool
+	Logpath        string
+	LogLevelStdOut string
+	LogLevelStdErr string
 }
 
 var cfg *Configuration = nil

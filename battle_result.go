@@ -10,9 +10,9 @@ type BattleResult struct {
 }
 
 type BattleResultSides struct {
-	ID   int64     `bson:"id"`
-	Name string    `bson:"name"`
-	Sea  *[100]int `bson:"sea"`
+	ID   int64    `bson:"id"`
+	Name string   `bson:"name"`
+	Sea  [100]int `bson:"sea"`
 }
 
 type BattleResultTurn struct {
